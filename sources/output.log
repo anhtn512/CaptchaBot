@@ -1,0 +1,374 @@
+2022-01-07 08:16:03: Error: Bot Token has not been set.
+2022-01-07 08:16:03: Please add your Bot Token to settings.py file.
+2022-01-07 08:16:03: Exit.
+
+2022-01-07 08:20:29: Bot started.
+2022-01-07 08:20:29: File /home/anhtn/JoinCaptchaBot/sources/data/allowedusers.txt not found, creating it...
+2022-01-07 08:20:29: File /home/anhtn/JoinCaptchaBot/sources/data/bannedgroups.txt not found, creating it...
+2022-01-07 08:20:29: Resources initialized.
+2022-01-07 08:20:29: Setup Bot for Polling.
+2022-01-07 08:20:29,297 - apscheduler.scheduler - INFO - Scheduler started
+2022-01-07 08:20:31: Bot setup completed. Bot is now running.
+ 
+2022-01-07 08:21:50: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-07 08:21:53: [-619332545] Sending captcha message to @anhanh512: 9013...
+2022-01-07 08:21:54: [-619332545] Captcha send process complete.
+ 
+2022-01-07 08:22:09: [-619332545] Received captcha reply from @anhanh512: 9013
+2022-01-07 08:22:09: [-619332545] Captcha solved by @anhanh512
+2022-01-07 08:22:11: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 08:27:11: [-619332545] Scheduled deletion time for message: 211
+2022-01-07 08:27:24: [-619332545] Scheduled deletion time for message: 209
+2022-01-07 08:27:25: [-619332545] Message to delete not found
+2022-01-07 08:35:36: [-619332545] Scheduled deletion time for message: 212
+2022-01-07 08:35:36: [-619332545] Scheduled deletion time for message: 213
+2022-01-07 08:36:00: [-619332545] Scheduled deletion time for message: 214
+2022-01-07 08:36:01: [-619332545] Scheduled deletion time for message: 215
+2022-01-07 08:36:10: [-619332545] Scheduled deletion time for message: 216
+2022-01-07 08:36:11: [-619332545] Scheduled deletion time for message: 217
+2022-01-07 08:36:19: [-619332545] Scheduled deletion time for message: 218
+2022-01-07 08:36:20: [-619332545] Scheduled deletion time for message: 219
+2022-01-07 08:36:27: [-619332545] Scheduled deletion time for message: 220
+2022-01-07 08:36:29: [-619332545] Scheduled deletion time for message: 221
+ 
+2022-01-07 08:54:56: [-619332545] New join detected: @quoccuonglhp (1402347780)
+2022-01-07 08:54:59: [-619332545] Sending captcha message to @quoccuonglhp: 5862...
+2022-01-07 08:55:00: [-619332545] Captcha send process complete.
+ 
+2022-01-07 08:55:02: [-619332545] Received captcha reply from @quoccuonglhp: Hi
+2022-01-07 08:55:02: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 08:55:12: [-619332545] Received captcha reply from @quoccuonglhp: 5862
+2022-01-07 08:55:12: [-619332545] Captcha solved by @quoccuonglhp
+2022-01-07 08:55:15: [-619332545] Captcha reply process complete.
+ 
+ 
+2022-01-07 08:56:46: [-619332545] New join detected: @quoccuonglhp (1402347780)
+2022-01-07 08:56:47: [-619332545] Sending captcha message to @quoccuonglhp: 82-75=7...
+2022-01-07 08:56:48: [-619332545] Captcha send process complete.
+ 
+ 
+2022-01-07 08:57:31: [-619332545] New join detected: @quoccuonglhp (1402347780)
+2022-01-07 08:57:32: [-619332545] Sending captcha message to @quoccuonglhp: 25+77=102...
+2022-01-07 08:57:33: [-619332545] Captcha send process complete.
+ 
+2022-01-07 08:57:46: [-619332545] Received captcha reply from @quoccuonglhp: 25+77
+2022-01-07 08:57:46: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 08:58:01: [-619332545] Received captcha reply from @quoccuonglhp: 102
+2022-01-07 08:58:01: [-619332545] Captcha solved by @quoccuonglhp
+2022-01-07 08:58:05: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 08:58:20: [-619332545] Scheduled deletion time for message: 222
+2022-01-07 08:58:22: [-619332545] Scheduled deletion time for message: 223
+2022-01-07 08:58:24: [-619332545] Scheduled deletion time for message: 224
+2022-01-07 08:58:25: [-619332545] Scheduled deletion time for message: 225
+2022-01-07 08:58:44: [-619332545] Scheduled deletion time for message: 226
+2022-01-07 08:58:45: [-619332545] Scheduled deletion time for message: 227
+ 
+2022-01-07 08:59:17: [-619332545] New join detected: @Mtt611 (1197592520)
+2022-01-07 08:59:18: [-619332545] Sending captcha message to @Mtt611: 54+73=127...
+2022-01-07 08:59:19: [-619332545] Captcha send process complete.
+ 
+2022-01-07 08:59:28: [-619332545] Received captcha reply from @Mtt611: 67
+2022-01-07 08:59:28: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:00:14: [-619332545] Scheduled deletion time for message: 234
+2022-01-07 09:00:15: [-619332545] Scheduled deletion time for message: 235
+2022-01-07 09:00:30: [-619332545] Scheduled deletion time for message: 229
+2022-01-07 09:00:30: [-619332545] Message to delete not found
+2022-01-07 09:00:51: [-619332545] Received captcha reply from @Mtt611: Sai à?
+2022-01-07 09:00:51: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:01:01: [-619332545] Received captcha reply from @Mtt611: 54 73 à?
+2022-01-07 09:01:01: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:01:04: [-619332545] Received captcha reply from @Mtt611: Hehe
+2022-01-07 09:01:04: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:01:10: [-619332545] Scheduled deletion time for message: 249
+2022-01-07 09:01:11: [-619332545] Scheduled deletion time for message: 250
+2022-01-07 09:01:18: [-619332545] Scheduled deletion time for message: 251
+2022-01-07 09:01:19: [-619332545] Scheduled deletion time for message: 252
+2022-01-07 09:01:22: [-619332545] Scheduled deletion time for message: 253
+2022-01-07 09:01:23: [-619332545] Scheduled deletion time for message: 255
+2022-01-07 09:01:30: [-619332545] Scheduled deletion time for message: 256
+2022-01-07 09:01:31: [-619332545] Scheduled deletion time for message: 257
+2022-01-07 09:01:44: [-619332545] Received captcha reply from @Mtt611: Đợi vài phút xem
+2022-01-07 09:01:44: [-619332545] Captcha reply process complete.
+ 
+ 
+2022-01-07 09:02:12: [-619332545] New join detected: @trankhanhdu (1101433733)
+2022-01-07 09:02:13: [-619332545] Sending captcha message to @trankhanhdu: 76+71=147...
+2022-01-07 09:02:14: [-619332545] Captcha send process complete.
+ 
+2022-01-07 09:02:18: [-619332545] Scheduled deletion time for message: 259
+2022-01-07 09:02:18: [-619332545] Message to delete not found
+2022-01-07 09:02:21: [-619332545] Received captcha reply from @trankhanhdu: 147
+2022-01-07 09:02:21: [-619332545] Captcha solved by @trankhanhdu
+2022-01-07 09:02:24: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:02:29: [-619332545] Received captcha reply from @Mtt611: Ồ
+2022-01-07 09:02:29: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:02:46: [-619332545] Scheduled deletion time for message: 265
+2022-01-07 09:02:47: [-619332545] Message to delete not found
+2022-01-07 09:03:03: [-619332545] Scheduled deletion time for message: 263
+2022-01-07 09:03:04: [-619332545] Message to delete not found
+2022-01-07 09:03:04: [-619332545] Scheduled deletion time for message: 268
+2022-01-07 09:03:05: [-619332545] Scheduled deletion time for message: 269
+2022-01-07 09:03:11: [-619332545] Received captcha reply from @Mtt611: Sửa văn lại dk chứ?
+2022-01-07 09:03:11: [-619332545] Captcha reply process complete.
+ 
+2022-01-07 09:04:19: [-619332545] Captcha reply timed out for user @Mtt611.
+2022-01-07 09:04:19: [-619332545] Captcha not solved, kicking @Mtt611 (1197592520)...
+2022-01-07 09:04:20: [-619332545] Method is available for supergroup and channel chats only
+2022-01-07 09:04:20: [-619332545] Increased join_retries to 2
+2022-01-07 09:04:21: [-619332545] Removing messages from user @Mtt611...
+2022-01-07 09:04:22: [-619332545] Kick/Ban process complete
+ 
+2022-01-07 09:04:49: [-619332545] Scheduled deletion time for message: 273
+2022-01-07 09:04:49: [-619332545] Message to delete not found
+ 
+2022-01-07 09:04:56: [-619332545] New join detected: @Mtt611 (1197592520)
+2022-01-07 09:04:57: [-619332545] Sending captcha message to @Mtt611: 23+71=94...
+2022-01-07 09:04:58: [-619332545] Captcha send process complete.
+ 
+2022-01-07 09:05:04: [-619332545] Received captcha reply from @Mtt611: 94
+2022-01-07 09:05:04: [-619332545] Captcha solved by @Mtt611
+2022-01-07 09:05:07: [-619332545] Captcha reply process complete.
+ 
+ 
+2022-01-07 09:06:32: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-07 09:06:33: [-619332545] Sending captcha message to @anhanh512: [button]
+2022-01-07 09:06:34: [-619332545] Captcha send process complete.
+ 
+2022-01-07 09:06:38: [-619332545] User @anhanh512 solved a button-only challenge.
+2022-01-07 09:06:39: [-619332545] Button-only challenge pass request process complete.
+ 
+2022-01-07 09:07:23: [-619332545] Scheduled deletion time for message: 287
+2022-01-07 09:07:24: [-619332545] Scheduled deletion time for message: 288
+2022-01-07 09:07:44: [-619332545] Scheduled deletion time for message: 285
+2022-01-07 09:07:45: [-619332545] Message to delete not found
+2022-01-07 09:09:21: [-619332545] Scheduled deletion time for message: 297
+2022-01-07 09:10:06: [-619332545] Scheduled deletion time for message: 304
+2022-01-07 09:10:07: [-619332545] Scheduled deletion time for message: 305
+2022-01-07 09:10:28: [-619332545] Scheduled deletion time for message: 300
+2022-01-07 09:10:28: [-619332545] Message to delete not found
+2022-01-07 09:10:52: [-619332545] Scheduled deletion time for message: 309
+2022-01-07 09:10:53: [-619332545] Scheduled deletion time for message: 310
+2022-01-07 09:10:55: [-619332545] Scheduled deletion time for message: 311
+2022-01-07 09:10:57: [-619332545] Scheduled deletion time for message: 312
+2022-01-07 09:11:02: [-619332545] Scheduled deletion time for message: 313
+2022-01-07 09:11:03: [-619332545] Scheduled deletion time for message: 314
+2022-01-07 09:11:09: [-619332545] Scheduled deletion time for message: 315
+2022-01-07 09:11:10: [-619332545] Scheduled deletion time for message: 316
+2022-01-07 09:11:38: [-619332545] Scheduled deletion time for message: 320
+2022-01-07 09:11:39: [-619332545] Scheduled deletion time for message: 321
+2022-01-07 09:12:04: [-619332545] Scheduled deletion time for message: 319
+2022-01-07 09:12:04: [-619332545] Message to delete not found
+2022-01-07 09:46:35: [-619332545] Scheduled deletion time for message: 346
+2022-01-07 09:46:36: [-619332545] Scheduled deletion time for message: 347
+2022-01-07 09:50:25: [-619332545] Scheduled deletion time for message: 348
+2022-01-07 09:50:26: [-619332545] Scheduled deletion time for message: 349
+ 
+2022-01-07 11:41:17: [-619332545] New join detected: @Mtt611 (1197592520)
+2022-01-07 11:41:18: [-619332545] Sending captcha message to @Mtt611: [button]
+2022-01-07 11:41:19: [-619332545] Captcha send process complete.
+ 
+2022-01-07 11:41:22: [-619332545] User @Mtt611 solved a button-only challenge.
+2022-01-07 11:41:23: [-619332545] Button-only challenge pass request process complete.
+ 
+2022-01-07 11:46:06: [-619332545] Scheduled deletion time for message: 351
+2022-01-07 11:46:07: [-619332545] Scheduled deletion time for message: 352
+2022-01-07 11:46:12: [-619332545] Scheduled deletion time for message: 353
+2022-01-07 11:46:13: [-619332545] Scheduled deletion time for message: 354
+2022-01-07 11:46:23: [-619332545] Scheduled deletion time for message: 357
+2022-01-07 11:46:23: [-619332545] Scheduled deletion time for message: 358
+2022-01-07 11:46:29: [-619332545] Scheduled deletion time for message: 359
+2022-01-07 11:46:30: [-619332545] Scheduled deletion time for message: 360
+2022-01-07 11:46:35: [-619332545] Scheduled deletion time for message: 361
+2022-01-07 11:46:36: [-619332545] Scheduled deletion time for message: 362
+2022-01-07 11:46:42: [-619332545] Scheduled deletion time for message: 363
+2022-01-07 11:46:43: [-619332545] Scheduled deletion time for message: 364
+2022-01-07 11:46:49: [-619332545] Scheduled deletion time for message: 356
+2022-01-07 11:46:49: [-619332545] Message to delete not found
+2022-01-07 11:54:32,114 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2022-01-07 11:54:32,443 - apscheduler.scheduler - INFO - Scheduler has been shut down
+Bot Threads end
+2022-01-07 11:54:42: Termination signal received. Releasing resources...
+2022-01-07 11:54:42: Closing Bot...
+2022-01-07 11:54:42: Closing resource files...
+2022-01-07 11:54:42: Waiting th_0 end...
+2022-01-07 11:54:42: Waiting th_1 end...
+2022-01-07 11:54:42: All resources released.
+2022-01-07 11:54:42: Exit 0
+2022-01-07 11:54:58: Bot started.
+    Error reading json file /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Invalid control character at: line 15 column 42 (char 4386)
+2022-01-07 11:54:58: Error loading language "VN" from /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Language file not found or bad JSON sintax.
+2022-01-07 11:54:58: Exit.
+
+2022-01-07 11:56:17: Bot started.
+2022-01-07 11:56:17: File /home/anhtn/JoinCaptchaBot/sources/data/allowedusers.txt not found, creating it...
+2022-01-07 11:56:17: File /home/anhtn/JoinCaptchaBot/sources/data/bannedgroups.txt not found, creating it...
+    Error reading json file /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Invalid control character at: line 15 column 42 (char 4386)
+2022-01-07 11:56:17: Error loading language "VN" from /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Language file not found or bad JSON sintax.
+2022-01-07 11:56:17: Exit.
+
+2022-01-07 11:56:21: Bot started.
+    Error reading json file /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Invalid control character at: line 15 column 42 (char 4386)
+2022-01-07 11:56:21: Error loading language "VN" from /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Language file not found or bad JSON sintax.
+2022-01-07 11:56:21: Exit.
+
+2022-01-07 11:57:19: Bot started.
+    Error reading json file /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Invalid control character at: line 15 column 42 (char 4386)
+2022-01-07 11:57:19: Error loading language "VN" from /home/anhtn/JoinCaptchaBot/sources/language/vn.json. Language file not found or bad JSON sintax.
+2022-01-07 11:57:19: Exit.
+
+2022-01-10 02:48:30: Bot started.
+2022-01-10 02:48:30: File /home/anhtn/CaptchaBot/sources/data/allowedusers.txt not found, creating it...
+2022-01-10 02:48:30: File /home/anhtn/CaptchaBot/sources/data/bannedgroups.txt not found, creating it...
+2022-01-10 02:48:30: Resources initialized.
+2022-01-10 02:48:30: Setup Bot for Polling.
+2022-01-10 02:48:30,510 - apscheduler.scheduler - INFO - Scheduler started
+2022-01-10 02:48:32: Bot setup completed. Bot is now running.
+ 
+2022-01-10 02:49:28: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 02:49:31: [-619332545] Sending captcha message to @anhanh512: 9100...
+2022-01-10 02:49:32: [-619332545] Captcha send process complete.
+ 
+2022-01-10 02:49:38: [-619332545] Received captcha reply from @anhanh512: 9100
+2022-01-10 02:49:38: [-619332545] Captcha solved by @anhanh512
+2022-01-10 02:49:39: [-619332545] Captcha reply process complete.
+ 
+2022-01-10 02:53:28,579 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2022-01-10 02:53:28,579 - apscheduler.scheduler - INFO - Scheduler has been shut down
+Bot Threads end
+2022-01-10 02:53:31: Termination signal received. Releasing resources...
+2022-01-10 02:53:31: Closing Bot...
+2022-01-10 02:53:31: Closing resource files...
+2022-01-10 02:53:31: Waiting th_0 end...
+2022-01-10 02:53:31: Waiting th_1 end...
+2022-01-10 02:53:31: All resources released.
+2022-01-10 02:53:31: Exit 0
+2022-01-10 02:53:39: Bot started.
+2022-01-10 02:53:39: Resources initialized.
+2022-01-10 02:53:39: Setup Bot for Polling.
+2022-01-10 02:53:39,731 - apscheduler.scheduler - INFO - Scheduler started
+2022-01-10 02:53:41: Bot setup completed. Bot is now running.
+ 
+2022-01-10 02:54:00: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 02:54:02: [-619332545] Sending captcha message to @anhanh512: 3646...
+2022-01-10 02:54:02: [-619332545] Captcha send process complete.
+ 
+2022-01-10 02:54:11: [-619332545] User @anhanh512 requested a new captcha.
+2022-01-10 02:54:11: [-619332545] Sending new captcha msg: 7666...
+2022-01-10 02:54:12: [-619332545] New captcha request process complete.
+ 
+2022-01-10 02:54:16: [-619332545] Received captcha reply from @anhanh512: 7666
+2022-01-10 02:54:16: [-619332545] Captcha solved by @anhanh512
+2022-01-10 02:54:18: [-619332545] Captcha reply process complete.
+ 
+2022-01-10 02:54:33,923 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2022-01-10 02:54:33,925 - apscheduler.scheduler - INFO - Scheduler has been shut down
+Bot Threads end
+2022-01-10 02:54:37: Termination signal received. Releasing resources...
+2022-01-10 02:54:37: Closing Bot...
+2022-01-10 02:54:37: Closing resource files...
+2022-01-10 02:54:37: Waiting th_0 end...
+2022-01-10 02:54:37: Waiting th_1 end...
+2022-01-10 02:54:37: All resources released.
+2022-01-10 02:54:37: Exit 0
+2022-01-10 02:54:45: Bot started.
+2022-01-10 02:54:45: File /home/anhtn/CaptchaBot/sources/data/allowedusers.txt not found, creating it...
+2022-01-10 02:54:45: File /home/anhtn/CaptchaBot/sources/data/bannedgroups.txt not found, creating it...
+2022-01-10 02:54:45: Resources initialized.
+2022-01-10 02:54:45: Setup Bot for Polling.
+2022-01-10 02:54:45,682 - apscheduler.scheduler - INFO - Scheduler started
+2022-01-10 02:54:47: Bot setup completed. Bot is now running.
+ 
+2022-01-10 02:54:55: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 02:54:56: [-619332545] Sending captcha message to @anhanh512: [button]
+2022-01-10 02:54:57: [-619332545] Captcha send process complete.
+ 
+2022-01-10 02:55:00: [-619332545] User @anhanh512 solved a button-only challenge.
+2022-01-10 02:55:00: [-619332545] Button-only challenge pass request process complete.
+ 
+ 
+2022-01-10 02:57:48: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 02:57:49: [-619332545] Sending captcha message to @anhanh512: [button]
+2022-01-10 02:57:50: [-619332545] Captcha send process complete.
+ 
+2022-01-10 02:57:54: [-619332545] User @anhanh512 solved a button-only challenge.
+2022-01-10 02:57:55: [-619332545] Button-only challenge pass request process complete.
+ 
+2022-01-10 03:00:00: [-619332545] Scheduled deletion time for message: 421
+2022-01-10 03:00:10: [-619332545] Scheduled deletion time for message: 422
+2022-01-10 03:00:11: [-619332545] Scheduled deletion time for message: 423
+2022-01-10 03:00:17: [-619332545] Scheduled deletion time for message: 424
+2022-01-10 03:00:18: [-619332545] Scheduled deletion time for message: 425
+2022-01-10 03:00:27: [-619332545] Scheduled deletion time for message: 420
+2022-01-10 03:00:27: [-619332545] Message to delete not found
+2022-01-10 03:02:32: [-619332545] Scheduled deletion time for message: 426
+2022-01-10 03:02:33: [-619332545] Scheduled deletion time for message: 427
+2022-01-10 03:02:55: [-619332545] Scheduled deletion time for message: 431
+2022-01-10 03:02:55: [-619332545] Scheduled deletion time for message: 432
+2022-01-10 03:03:11,620 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2022-01-10 03:03:11,620 - apscheduler.scheduler - INFO - Scheduler has been shut down
+Bot Threads end
+2022-01-10 03:03:17: Termination signal received. Releasing resources...
+2022-01-10 03:03:17: Closing Bot...
+2022-01-10 03:03:17: Closing resource files...
+2022-01-10 03:03:17: Waiting th_0 end...
+2022-01-10 03:03:17: Waiting th_1 end...
+2022-01-10 03:03:17: All resources released.
+2022-01-10 03:03:17: Exit 0
+2022-01-10 03:03:43: Bot started.
+2022-01-10 03:03:43: File /home/anhtn/CaptchaBot/sources/data/allowedusers.txt not found, creating it...
+2022-01-10 03:03:43: File /home/anhtn/CaptchaBot/sources/data/bannedgroups.txt not found, creating it...
+2022-01-10 03:03:43: Resources initialized.
+2022-01-10 03:03:43: Setup Bot for Polling.
+2022-01-10 03:03:43,759 - apscheduler.scheduler - INFO - Scheduler started
+2022-01-10 03:03:45: Bot setup completed. Bot is now running.
+ 
+2022-01-10 03:04:29: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 03:04:30: [-619332545] Sending captcha message to @anhanh512: [button]
+2022-01-10 03:04:30: [-619332545] Captcha send process complete.
+ 
+2022-01-10 03:04:33: [-619332545] User @anhanh512 solved a button-only challenge.
+2022-01-10 03:04:34,205 - telegram.ext.dispatcher - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/anhtn/.local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 459, in process_update
+    self.dispatch_error(update, exc)
+  File "/home/anhtn/.local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 679, in dispatch_error
+    callback(update, context)
+  File "/home/anhtn/CaptchaBot/sources/captcha_bot.py", line 2437, in tlg_error_callback
+    raise context.error
+  File "/home/anhtn/.local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/anhtn/.local/lib/python3.6/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/home/anhtn/CaptchaBot/sources/captcha_bot.py", line 1174, in key_inline_keyboard
+    button_request_pass(bot, query)
+  File "/home/anhtn/CaptchaBot/sources/captcha_bot.py", line 1276, in button_request_pass
+    welcome_msg = get_chat_config(chat_id, "Welcome_Msg").format(escape_markdown(user_name))
+IndexError: tuple index out of range
+ 
+2022-01-10 03:05:59: [-619332545] New join detected: @anhanh512 (1960047186)
+2022-01-10 03:06:00: [-619332545] Sending captcha message to @anhanh512: [button]
+2022-01-10 03:06:01: [-619332545] Captcha send process complete.
+ 
+2022-01-10 03:06:03: [-619332545] User @anhanh512 solved a button-only challenge.
+2022-01-10 03:06:04: [-619332545] Button-only challenge pass request process complete.
+ 
+2022-01-10 03:06:10,937 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2022-01-10 03:06:10,938 - apscheduler.scheduler - INFO - Scheduler has been shut down
+Bot Threads end
+2022-01-10 03:06:12: Termination signal received. Releasing resources...
+2022-01-10 03:06:12: Closing Bot...
+2022-01-10 03:06:12: Closing resource files...
+2022-01-10 03:06:12: Waiting th_0 end...
+2022-01-10 03:06:12: Waiting th_1 end...
+2022-01-10 03:06:12: All resources released.
+2022-01-10 03:06:12: Exit 0

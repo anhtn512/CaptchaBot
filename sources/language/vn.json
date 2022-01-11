@@ -1,0 +1,203 @@
+{
+    "START":
+        "Xin chào, tôi là Bot xác thực captcha cho mỗi người dùng mới tham gia một nhóm và đá bất kỳ ai không thể giải được captcha trong một thời gian nhất định.\n\nNếu một người dùng cố gắng tham gia nhóm 5 lần liên tiếp và không bao giờ giải được captcha, tôi sẽ cho rằng người dùng này là bot và sẽ tiến hành ban. Ngoài ra, bất kỳ tin nhắn nào có chứa URL do một người dùng mới gửi trước khi hoàn tất hình ảnh xác thực sẽ bị coi là thư rác và sẽ bị xóa.\n\nHãy cấp cho tôi đặc quyền administration để có thể ban hoặc xóa tin nhắn của một người dùng bất kỳ.\n\nCheck /help command for more information about my usage.\n\nAm I useful? Check /about command and consider making a donation to keep me active.",
+
+    "HELP":
+        "Bot help:\n————————————————\n- Xin chào, tôi là Bot xác thực captcha cho mỗi người dùng mới tham gia một nhóm và đá bất kỳ ai không thể giải được captcha trong một thời gian nhất định.\n\n- Nếu một người dùng cố gắng tham gia nhóm 5 lần liên tiếp và không bao giờ giải được captcha, tôi sẽ cho rằng người dùng này là bot và sẽ tiến hành ban.\n\n- Bất kỳ tin nhắn nào có chứa URL do một người dùng mới gửi trước khi hoàn tất hình ảnh xác thực sẽ bị coi là thư rác và sẽ bị xóa.\n\n- Hãy cấp cho tôi đặc quyền administration để có thể ban hoặc xóa tin nhắn của một người dùng bất kỳ.\n\n- Để tránh việc spam, tôi tự động xóa tất cả các tin nhắn liên quan đến tôi khi hình ảnh xác thực không được giải quyết và người dùng bị đá (sau 5 phút).\n\n- Thời gian tối đa mà người dùng mới phải xác thực captcha mặc định là 5 phút, nhưng nó có thể được định cấu hình bằng lệnh /time.\n\n- Bạn có thể tắt bật tính năng xác thực captcha bằng cách sử dụng commands /enable và /disable.\n\n- Các lệnh cấu hình chỉ có thể được sử dụng bởi Administrators của group.\n\n- Bạn có thể thay đổi ngôn ngữ mà tôi đang sử dụng bằng command /language.\n\n- Bạn có thể cấu hình mức độ khó khăn của captcha bằng cách sử dụng command /difficulty.\n\n- Bạn có thể đặt captcha xác thực sử dụng đầy đủ số và chữ cái A – Z hoặc số và chữ cái A – F, hoặc chỉ số (mặc định), hoặc một phép toán cần giải hoặc một cuộc thăm dò tùy chỉnh hoặc một nút được nhấn, sử dụng command /captcha_mode.\n\n- Bạn có thể cấu hình tin nhắn chào mừng tùy chỉnh với command /welcome_msg.\n\n- Bạn có thể đặt tùy chọn để cho phép tôi áp dụng hạn chế đối với những người dùng mới tham gia gửi tin nhắn đa phương tiện bằng cách sử dụng command /restrict_non_text.\n\n- If the Bot is Private, allow groups with command /allowgroup.\n\n- /commands to get a list of all avaliable commands, and a short description of all of them.",
+
+    "COMMANDS":
+        "List of commands:\n————————————————\n/start - Hiển thị thông tin ban đầu về bot.\n\n/help - Hiển thị thông tin help.\n\n/commands - Thông tin về tất cả các lệnh có sẵn và mô tả của chúng.\n\n/language - Cho phép thay đổi ngôn ngữ tin nhắn của bot.\n\n/time - Cho phép thay đổi thời gian tối đa để xác thực một captcha (mặc định đặt 5 phút).\n\n/difficulty - Cho phép thay đổi độ khó của hình ảnh xác thực (từ 1 đến 5).\n\n/captcha_mode - Cho phép thay đổi chế độ hình ảnh xác thực (nums: số, hex: số và ký tự A-F, ascii: số và ký tự A-Z, math: giải một phép toán, button: chỉ là một button xác thực).\n\n/welcome_msg - Cho phép cấu hình tin nhắn chào mừng được gửi sau khi xác thực captcha.\n\n/restrict_non_text - Sau khi người dùng mới giải được hình ảnh xác thực, áp dụng hạn chế không cho phép họ gửi tin nhắn không phải văn bản (hình ảnh, video, âm thanh) trong 1 ngày (hoặc mãi mãi, bằng cách sử dụng từ khóa \"forever\").\n\n/add_ignore - Bỏ qua xác thực captcha cho một ai đó.\n\n/remove_ignore - Bỏ ngoại lệ xác thực captcha cho một ai đó.\n\n/ignore_list - Danh sách người dùng ngoại lệ.\n\n/remove_solve_kick_msg - Cấu hình nếu xác thực captcha hoàn thành thì tin nhắn kick/ban sẽ tự động bị xóa sau một thời gian.\n\n/remove_welcome_msg - Cấu hình tin nhắn chào mừng sẽ tự động bị xóa sau một thời gian.\n\n/allowgroup - Allow a group to use the Bot (if Bot is Private).\n\n/enable - Kích hoạt xác thực captcha cho group.\n\n/disable - Tạm dựng xác thục captcha cho group.\n\n/chatid - Shows Chat ID of current chat.\n\n/version - Show the version of the Bot.\n\n/about - Show about info.",
+
+    "CMD_NOT_ALLOW":
+        "Chỉ Admin mới có thể sử dụng command này.",
+
+    "LANG_CHANGE":
+        "Ngôn ngữ đã thay đổi thành công.",
+
+    "LANG_SAME":
+        "Hiện tại, tôi đang sử dụng ngôn ngữ đó.\n\nCác ngôn ngữ được hỗ trợ:\n{}",
+
+    "LANG_BAD_LANG":
+        "Invalid language provided.\n\nSupported languages:\n{}",
+
+    "LANG_NOT_ARG":
+        "Command cần một ngôn ngữ để thiết lập.\n\nVí dụ:\n{}",
+
+    "TIME_CHANGE":
+        "Đã thay đổi thời gian tối đa để xác thực captcha thành {} phút.",
+
+    "TIME_MAX_NOT_ALLOW":
+        "Thời gian thời gian tối đa để xác thực captcha là 20 phút. Không thể thay đổi.",
+
+    "TIME_NOT_NUM":
+        "Thời gian đã cho không phải là một số nguyên.",
+
+    "TIME_NOT_ARG":
+        "Lệnh cần một giá trị thời gian để đặt (tính bằng phút).\n\nVí dụ:\n/time 3\n/time 5\n/time 10",
+
+    "DIFFICULTY_CHANGE":
+        "Đã thay đổi thành công độ khó của captcha thành level {}.",
+
+    "DIFFICULTY_NOT_NUM":
+        "Độ khó được cung cấp không phải là một số.",
+
+    "DIFFICULTY_NOT_ARG":
+        "Lệnh cần có độ khó để đặt (từ 1 đến 5). Không có tác dụng trong chế độ \"button\".\n\nVí dụ:\n/difficulty 1\n/difficulty 2\n/difficulty 3\n/difficulty 4\n/difficulty 5",
+
+    "CAPTCHA_MODE_CHANGE":
+        "Captcha mode đã được thay đổi thành công thành \"{}\".",
+
+    "CAPTCHA_MODE_INVALID":
+        "Captcha mode không hợp lệ. Các mode được hỗ trợ là: \"nums\", \"hex\", \"ascii\", \"math\" and \"button\".\n\nVí dụ:\n/captcha_mode nums\n/captcha_mode hex\n/captcha_mode ascii\n/captcha_mode math\n/captcha_mode button",
+
+    "CAPTCHA_MODE_NOT_ARG":
+        "Command cần một mode để thiết lập. Các mode khả dụng là:\n\n- Captchas bằng số (\"nums\").\n- Captchas bằng số và các ký tự A-F (\"hex\").\n- Captchas bằng số và các ký tự A-Z (\"ascii\").\n- Captcha là một phép toán (\"math\").\n- Chỉ một button đơn giản (\"button\").\n\nVí dụ:\n/captcha_mode nums\n/captcha_mode hex\n/captcha_mode ascii\n/captcha_mode math\n/captcha_mode button",
+
+    "WELCOME_MSG_SET":
+        "Tin nhắn chào mừng đã được cấu hình thành công.",
+
+    "WELCOME_MSG_UNSET":
+        "Tin nhắn chào mừng đã bị vô hiệu hóa.",
+
+    "WELCOME_MSG_SET_NOT_ARG":
+        "Đặt tin nhắn chào mừng sau command.\n\nVí dụ:\n/welcome_msg Hi $user, welcome to the group and remember to be respectful with other users.\n\nVô hiệu hóa tin nhắn:\n/welcome_msg disable",
+
+    "RESTRICT_NON_TEXT_MSG_ENABLED":
+        "Hạn chế gửi tin nhắn không phải văn bản cho người dùng mới được bật. Tôi sẽ xóa các tin nhắn của người dùng không phải là tin nhắn văn bản.",
+
+    "RESTRICT_NON_TEXT_MSG_DISABLED":
+        "Hạn chế gửi tin nhắn không phải văn bản cho người dùng mới đã bị vô hiệu hóa.",
+
+    "RESTRICT_NON_TEXT_MSG_NOT_ARG":
+        "Đặt nếu bạn muốn bật hoặc tắt các hạn chế người dùng đã tham gia gần đây để gửi tin nhắn không phải văn bản (Không cho phép người dùng gửi tin nhắn đa phương tiện hoặc tin nhắn khác thay vì tin nhắn văn bản. Admin có thể cấp lại quyền đó theo cách thủ công cho người dùng trong tương lai).\n\nVí dụ:\n/restrict_non_text enable\n/restrict_non_text enable forever\n/restrict_non_text disable",
+
+    "IGNORE_LIST_ADD_NOT_ARG":
+        "Vui lòng cung cấp ID của người dùng sau command.\n\nVí dụ:\n/add_ignore @peter",
+
+    "IGNORE_LIST_ADD_DUPLICATED":
+        "ID này đã tồn tại trong danh sách ngoại lệ.",
+
+    "IGNORE_LIST_ADD_LIMIT_EXCEEDED":
+        "Rất tiếc, bạn đã đạt đến giới hạn tối đa người dùng được thêm vào danh sách ngoại lệ, hãy xóa người nào đó để thêm người khác.",
+
+    "IGNORE_LIST_ADD_INVALID":
+        "ID không hợp lệ.",
+
+    "IGNORE_LIST_ADD_SUCCESS":
+        "ID đã được thêm thành công!",
+
+    "IGNORE_LIST_REMOVE_NOT_ARG":
+        "Vui lòng cung cấp ID của người dùng sau command.\n\nVí dụ:\n/remove_ignore 1234567890\n/remove_ignore @peter",
+
+    "IGNORE_LIST_REMOVE_SUCCESS":
+        "ID đã được xóa thành công!",
+
+    "IGNORE_LIST_REMOVE_NOT_IN_LIST":
+        "ID không có trong danh sách ngoại lệ, không có gì được thực hiện.",
+
+    "IGNORE_LIST_EMPTY":
+        "Danh sách ngoại lệ trống.",
+
+    "NEW_USER_IMG_CAPTION":
+        "Xin chào {}, chào mừng bạn đến với {}. Vui lòng viết một tin nhắn với các số và/hoặc chữ cái xuất hiện trong hình ảnh này để xác minh rằng bạn không phải là robot. Nếu bạn không hoàn thành thử thách này trong {} phút, bạn sẽ tự động bị đuổi khỏi nhóm.",
+
+    "NEW_USER_MATH_CAPTION":
+        "Xin chào {}, chào mừng bạn đến với {}. Vui lòng viết một tin nhắn với nội dung là kết quả của phép toán trong hình này để xác minh rằng bạn không phải là robot. Nếu bạn không hoàn thành thử thách này trong {} phút, bạn sẽ tự động bị đuổi khỏi nhóm.",
+
+    "NEW_USER_BUTTON_MODE":
+        "Xin chào {}, chào mừng bạn đến với {}. Vui lòng click vào nút bên dưới để xác minh rằng bạn không phải là robot. Nếu bạn không làm điều này sau {} phút, bạn sẽ tự động bị đuổi khỏi nhóm.",
+
+    "CAPTCHA_SOLVED":
+        "Captcha đã hoàn thành, {} đã xác minh 😍",
+
+    "CAPTCHA_INCORRECT_0":
+        "Đó không phải là đáp án chính xác. Thử lại...",
+
+    "CAPTCHA_INCORRECT_1":
+        "Đó không phải là con số chính xác. Kiểm tra kỹ, hình ảnh xác thực có 4 số ...",
+
+    "CAPTCHA_INCORRECT_MATH":
+        "Đó không phải là con số chính xác. Kiểm tra kỹ, bạn cần phải tìm kết quả của phép toán ...",
+
+    "NEW_USER_KICK":
+        "{} đã không hoàn thành quá trình xác thực trong thời gian cho phép. \"Người dùng\" đã bị đuổi khỏi nhóm.",
+
+    "NEW_USER_KICK_NOT_RIGHTS":
+        "Tôi đã cố đuổi \"người dùng\" {} khỏi nhóm, nhưng tôi không có quyền administration để đuổi người dùng khỏi nhóm.",
+
+    "NEW_USER_KICK_NOT_IN_CHAT":
+        "Tôi đã cố đuổi \"người dùng\" {} khỏi nhóm, nhưng người dùng này không ở trong nhóm nữa (đã rời khỏi nhóm hoặc bị Admin đuổi ra khỏi nhóm).",
+
+    "BOT_CANT_KICK":
+        "Tôi đã cố đuổi \"người dùng\" {} khỏi nhóm, nhưng do sự cố không mong muốn (có thể liên quan đến mạng/máy chủ) nên không thực hiện được.",
+
+    "CANT_DEL_MSG":
+        "Tôi đã cố xóa tin nhắn này, nhưng tôi không có quyền administration để xóa các tin nhắn không phải do tôi gửi.",
+
+    "NEW_USER_BAN":
+        "Cảnh báo: Đây là lần thứ năm {} cố gắng tham gia nhóm và không hoàn thành quá trình xác thực. \"người dùng\" đã bị ban.",
+
+    "NEW_USER_BAN_NOT_IN_CHAT":
+        "Cảnh báo: Đây là lần thứ năm {} cố gắng tham gia nhóm và không hoàn thành quá trình xác thực. Tôi đã cố gắng ban \"người dùng\", nhưng người dùng đó không còn ở trong nhóm nữa (đã rời khỏi nhóm hoặc bị Quản trị viên đuổi/cấm)",
+
+    "NEW_USER_BAN_NOT_RIGHTS":
+        "Cảnh báo: Đây là lần thứ năm {} cố gắng tham gia nhóm và không hoàn thành quá trình xác thực. Tôi đã cố gắng ban \"người dùng\", nhưng tôi không có quyền administration để ban người dùng trong nhóm.",
+
+    "BOT_CANT_BAN":
+        "Cảnh báo: Đây là lần thứ năm {} cố gắng tham gia nhóm và không hoàn thành quá trình xác thực. Tôi đã cố gắng ban \"người dùng\", nhưng do sự cố không mong muốn (có thể liên quan đến mạng/máy chủ), tôi không thể thực hiện được.",
+
+    "SPAM_DETECTED_RM":
+        "Đã phát hiện một tin nhắn có link (hoặc ID) từ {}, người vẫn chưa hoàn thành quá trình xác thực. Tin nhắn đã bị xóa vì mục đích giữ cho group không có Spam :)",
+
+    "SPAM_DETECTED_NOT_RM":
+        "Tin nhắn có link (hoặc ID) được phát hiện từ {}, người vẫn chưa hoàn thành quá trình xác thực. Tôi đã cố xóa tin nhắn Spam nhưng tôi không có quyền quản trị để xóa các tin nhắn không phải do tôi gửi.",
+
+    "NOT_TEXT_MSG_ALLOWED":
+        "Đã xóa một tin nhắn không phải văn bản (hình ảnh, âm thanh, tệp ...) khỏi {}, vì mục đích giữ cho group không bị Spam.\n\nBạn có thể gửi tin nhắn không phải văn bản sau khi đã hoàn thành quá trình xác thực.",
+
+    "RM_SOLVE_KICK_MSG":
+        "Cấu hình nếu tin nhắn hoàn thành và kick/ban sẽ được tự động xóa sau một thời gian.\n\nVí dụ:\n/remove_solve_kick_msg yes\n/remove_solve_kick_msg no",
+
+    "RM_SOLVE_KICK_MSG_YES":
+        "Thay đổi cấu hình, tin nhắn hoàn thành và kick/ban sẽ tự động bị xóa sau một thời gian.",
+
+    "RM_SOLVE_KICK_MSG_NO":
+        "Thay đổi cấu hình, tin nhắn hoàn thành và kick/ban sẽ không bị xóa.",
+
+    "RM_WELCOME_MSG":
+        "Cấu hình tin nhắn chào mừng sẽ tự động bị xóa sau một thời gian.\n\nVí dụ:\n/remove_welcome_msg yes\n/remove_welcome_msg no",
+
+    "RM_WELCOME_MSG_YES":
+        "Thay đổi cấu hình, tin nhắn chào mừng sẽ tự động bị xóa sau một thời gian.",
+
+    "RM_WELCOME_MSG_NO":
+        "Thay đổi cấu hình, tin nhắn chào mừng sẽ không bị xóa.",
+
+    "OTHER_CAPTCHA_BTN_TEXT":
+        "Refresh Captcha",
+
+    "PASS_BTN_TEXT":
+        "Tôi không phải Robot",
+
+    "ENABLE":
+        "Đã kích hoạt quá trình xác thực bằng captcha. Vô hiệu hóa bằng command /disable.",
+
+    "DISABLE":
+        "Đã vô hiệu hóa quá trình xác thực bằng captcha. Kích hoạt bằng command /enable.",
+
+    "ALREADY_ENABLE":
+        "Quá trình xác thực bằng captcha đã được kích hoạt.",
+
+    "ALREADY_DISABLE":
+        "Quá trình xác thực bằng captcha đã được vô hiệu hóa.",
+
+    "CAN_NOT_GET_ADMINS":
+        "Không thể sử dụng command tại đây.",
+
+    "VERSION":
+        "Current Bot version:\n{}",
+
+    "ABOUT_MSG":
+        "Bot Developed by {}.\n\nYou can check the code here:\n{}\n\nDo you like my work? Buy me a coffee:\n{}"
+}
+

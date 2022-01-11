@@ -1,0 +1,24 @@
+{
+    "Title": "test",
+    "Link": "Unknown",
+    "Language": "VN",
+    "Enabled": true,
+    "Captcha_Chars_Mode": "button",
+    "Captcha_Time": 5,
+    "Captcha_Difficulty_Level": 3,
+    "Restrict_Non_Text": 0,
+    "Rm_Result_Msg": true,
+    "Rm_Welcome_Msg": true,
+    "Poll_Q": "",
+    "Poll_A": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "Poll_C_A": 0,
+    "Welcome_Msg": "Chào mừng {0} đã đến với {1}\n⚠️ TUYỆT ĐỐI KHÔNG ĐƯA 12 KÝ TỰ \\(SEED PHASE\\) CỦA VÍ \\(TRUST, SAFEPAL, METAMASK\\) CHO NGƯỜI KHÁC ⚠️\n❔ Hướng dẫn cho người mới, newbie xem qua trước khi đặt câu hỏi\n0\\. DODO là gì? \\(https://blogtienao\\.com/dodo\\-coin/\\)\n1\\. Website: https://dodoex\\.io/\nDanh sách ví hỗ trợ dApp: SafePal, Metamask, Trust\n⚠️ Hãy báo cáo nếu có người giả danh admin nhắn tin cho bạn\\. Danh sách admin: @mtt611, @quoccuonglhp",
+    "Ignore_List": []
+}
